@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <div id="Result" style="display: flex; justify-content:space-between;flex-direction: row;">
+        <div id="un" style="width: 20px; height: 30px;border: solid 2px rgb(12, 12, 12);"></div>
+        <div id="deux" style="width: 20px; height: 30px;border: solid 2px rgb(12, 12, 12);"></div>
+        <div id="trois" style="width: 20px; height: 30px;border: solid 2px rgb(12, 12, 12);"></div>
+        <div id="quatre" style="width: 20px; height: 30px;border: solid 2px rgb(12, 12, 12);"></div>
+        <div id="cinq" style="width: 20px; height: 30px;border: solid 2px rgb(12, 12, 12);"></div>
+        <div id="six" style="width: 20px; height: 30px;border: solid 2px rgb(12, 12, 12);"></div>
+        <div id="sept" style="width: 20px; height: 30px;border: solid 2px rgb(12, 12, 12);"></div>
+        <div id="huit" style="width: 20px; height: 30px;border: solid 2px rgb(12, 12, 12);"></div>
+        <div id="neuf" style="width: 20px; height: 30px;border: solid 2px rgb(12, 12, 12);"></div>
+        <div id="dix" style="width: 20px; height: 30px;border: solid 2px rgb(12, 12, 12);"></div>
+        <div id="onze" style="width: 20px; height: 30px;border: solid 2px rgb(12, 12, 12);"></div>
+        <div id="douze" style="width: 20px; height: 30px;border: solid 2px rgb(12, 12, 12);"></div>
+
+    </div>
+    <input id="num" type="text">
+    <button onclick="myfunction()">Check Designation</button>
+    <script>
+        function myfunction() {
+
+            var valeur = document.getElementById("num").value;
+            if (valeur === "1" || valeur === "2" || valeur === "3")
+                document.getElementById("un").innerHTML = 1;
+            else if (valeur === "4" || valeur === "5" || valeur === "6")
+                document.getElementById("deux").innerHTML = 2;
+            else if (valeur === "7" || valeur === "8" || valeur === "9")
+                document.getElementById("trois").innerHTML = 3;
+            else if (valeur === "10" || valeur === "11" || valeur === "12")
+                document.getElementById("quatre").innerHTML = 4;
+            else if (valeur === "13" || valeur === "14" || valeur === "15")
+                document.getElementById("cinq").innerHTML = 5;
+            else if (valeur === "16" || valeur === "17" || valeur === "18")
+                document.getElementById("six").innerHTML = 6;
+            else if (valeur === "19" || valeur === "20" || valeur === "21")
+                document.getElementById("sept").innerHTML = 7;
+            else if (valeur === "22" || valeur === "23" || valeur === "24")
+                document.getElementById("huit").innerHTML = 8;
+            else if (valeur === "25" || valeur === "26" || valeur === "27")
+                document.getElementById("neuf").innerHTML = 9;
+            else if (valeur === "28" || valeur === "29" || valeur === "30")
+                document.getElementById("dix").innerHTML = 10;
+            else if (valeur === "31" || valeur === "32" || valeur === "33")
+                document.getElementById("onze").innerHTML = 11;
+            else if (valeur === "34" || valeur === "35" || valeur === "36")
+                document.getElementById("douze").innerHTML = 12;
+
+            else
+                alert("aaaaaaaaaaaaaaaaaaaa")
+        }
+    </script>
+</body>
+
+</html>
